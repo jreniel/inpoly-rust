@@ -2,8 +2,9 @@
 name = "inpoly"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "LICENSE.md"
+repository = "https://github.com/jreniel/inpoly-rust.git"
+description = "Rust rewrite of Darren Engwirda's inpoly-python"
 
 [dependencies]
 meshgridrs = "0.1.1"
