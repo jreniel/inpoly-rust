@@ -2,7 +2,7 @@
 name = "inpoly"
 version = "0.1.0"
 edition = "2021"
-license = "LICENSE.md"
+license-file = "LICENSE.md"
 repository = "https://github.com/jreniel/inpoly-rust.git"
 description = "Rust rewrite of Darren Engwirda's inpoly-python"
 
