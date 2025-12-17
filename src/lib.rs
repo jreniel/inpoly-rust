@@ -1,7 +1,7 @@
-//! Point-in-polygon testing using the crossing number algorithm.
+//! Fast point-in-polygon testing using the crossing-number algorithm.
 //!
-//! This is a Rust port of Darren Engwirda's inpoly algorithm.
-//! See: <https://github.com/dengwirda/inpoly>
+//! Efficiently determines whether points lie inside, outside, or on the
+//! boundary of polygons (including those with holes).
 
 use ndarray::{Array1, Array2, Axis};
 use ndarray_stats::QuantileExt;

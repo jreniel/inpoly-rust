@@ -2,9 +2,9 @@
 name = "inpoly"
 version = "0.2.0"
 edition = "2021"
-license-file = "LICENSE.md"
+license = "MIT"
 repository = "https://github.com/jreniel/inpoly-rust.git"
-description = "Rust rewrite of Darren Engwirda's inpoly-python"
+description = "Fast point-in-polygon testing using the crossing-number algorithm"
 
 [dependencies]
 ndarray = "0.16"
